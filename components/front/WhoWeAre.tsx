@@ -68,7 +68,7 @@ export function WhoWeAre() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/professional-cleaning-team-working-together-in-mod.png"
+                  src="https://img.freepik.com/premium-photo/volunteer-group-nature-park-cleaning-community-service-clean-environment-recycling-pollution-black-woman-happy-help-people-with-plastic-bottle-trash-bag-outdoor-green-grass_590464-148056.jpg?w=1480"
                   alt="Professional cleaning team working together in modern home"
                   className="w-full h-[400px] lg:h-[500px] object-cover"
                 />
