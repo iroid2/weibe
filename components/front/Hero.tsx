@@ -3,9 +3,9 @@ import { Check, Star } from "lucide-react";
 
 export default function Hero() {
   return (
-    <div className=" py-4 md:px-10 md:py-10">
+    <div className=" py-4 md:px-10 md:py-10 md:mt-[2rem]">
       <section
-        className="pt-12 md:pt-20 mt-4 rounded-lg md:rounded-xl overflow-hidden pb-8 md:pb-12 px-4 sm:px-6 lg:px-8 relative min-h-[70vh] md:min-h-screen bg-cover bg-center bg-no-repeat"
+        className="pt-12 md:pt-20 mt-4 rounded-lg md:rounded-[2.4rem] overflow-hidden pb-8 md:pb-12 px-4 sm:px-6 lg:px-8 relative min-h-[70vh] md:min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "url('/images/cleaning-lady-modern-kitchen.png')",
         }}
