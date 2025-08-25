@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Search, Phone, Menu, X } from "lucide-react";
+import { ChevronDown, Phone, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -73,7 +73,7 @@ export default function Navbar() {
 
             {/* Search Icon */}
             <button className="p-2 text-gray-700 hover:text-gray-900">
-              <Search className="w-5 h-5" />
+              {/* <Search className="w-5 h-5" /> */}
             </button>
 
             {/* Free Quote Button */}
