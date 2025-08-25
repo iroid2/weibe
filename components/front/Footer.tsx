@@ -1,8 +1,8 @@
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
+import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-green-50 py-16">
+    <footer className="bg-green-50 py-16 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Section */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-16 gap-8">
@@ -15,10 +15,18 @@ export function Footer() {
                 You With Every Clean
               </h2>
               {/* Decorative leaves */}
-              <svg className="absolute -top-2 right-20 w-8 h-8 text-green-500" fill="currentColor" viewBox="0 0 24 24">
+              <svg
+                className="absolute -top-2 right-20 w-8 h-8 text-green-500"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
                 <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.06.82C6.16 17.4 9 14 17 8z" />
               </svg>
-              <svg className="absolute top-8 right-32 w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+              <svg
+                className="absolute top-8 right-32 w-6 h-6 text-green-400"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
                 <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.06.82C6.16 17.4 9 14 17 8z" />
               </svg>
             </div>
@@ -49,31 +57,57 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-16">
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-gray-900 font-roboto">SERVICES</h4>
+            <h4 className="text-lg font-semibold mb-6 text-gray-900 font-roboto">
+              SERVICES
+            </h4>
             <div className="grid grid-cols-1 gap-3">
               <div className="grid grid-cols-2 gap-x-8 gap-y-3 text-sm font-poppins">
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
+                >
                   House cleaning
                 </a>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
+                >
                   Deep cleaning
                 </a>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
+                >
                   Office cleaning
                 </a>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
+                >
                   Move in out cleaning
                 </a>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
+                >
                   Apartment cleaning
                 </a>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
+                >
                   Post construction cleaning
                 </a>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
+                >
                   Airbnb cleaning
                 </a>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-600 hover:text-green-600 transition-colors"
+                >
                   Recurring cleaning
                 </a>
               </div>
@@ -82,7 +116,9 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-gray-900 font-roboto">CONTACT INFO</h4>
+            <h4 className="text-lg font-semibold mb-6 text-gray-900 font-roboto">
+              CONTACT INFO
+            </h4>
             <div className="space-y-4 text-sm font-poppins">
               <p className="text-gray-600">
                 Kireka, Namugongo Road
@@ -91,7 +127,12 @@ export function Footer() {
               </p>
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <svg className="w-4 h-4 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="w-4 h-4 text-gray-900"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -100,7 +141,9 @@ export function Footer() {
                     />
                   </svg>
                 </div>
-                <span className="text-gray-900 font-medium">+256 754 185102</span>
+                <span className="text-gray-900 font-medium">
+                  +256 754 185102
+                </span>
               </div>
               <p className="text-gray-600 underline">info@weibecleaning.com</p>
             </div>
@@ -108,7 +151,9 @@ export function Footer() {
 
           {/* Working Hours */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-gray-900 font-roboto">WORKING HOURS</h4>
+            <h4 className="text-lg font-semibold mb-6 text-gray-900 font-roboto">
+              WORKING HOURS
+            </h4>
             <div className="space-y-2 text-sm font-poppins">
               <div className="flex justify-between">
                 <span className="text-gray-600">Mon - Fri:</span>
@@ -128,25 +173,39 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-16 pt-8 border-t border-gray-200 gap-4">
-          <p className="text-gray-500 text-sm font-poppins">© 2025 Weibe Cleaning Services. All Rights Reserved</p>
+          <p className="text-gray-500 text-sm font-poppins">
+            © 2025 Weibe Cleaning Services. All Rights Reserved
+          </p>
 
           {/* Social Media Icons */}
           <div className="flex gap-4">
-            <a href="#" className="text-gray-400 hover:text-green-600 transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-green-600 transition-colors"
+            >
               <Facebook className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-green-600 transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-green-600 transition-colors"
+            >
               <Instagram className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-green-600 transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-green-600 transition-colors"
+            >
               <Twitter className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-green-600 transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-green-600 transition-colors"
+            >
               <Youtube className="h-5 w-5" />
             </a>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
