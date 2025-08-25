@@ -6,7 +6,7 @@ export function FacebookButton() {
   const facebookPage = "weibecleaningservices";
 
   const handleFacebookClick = () => {
-    const url = `https://m.facebook.com/p/Weibe-Cleaning-Services-61579208743498/&ved=2ahUKEwiNt-q3rqaPAxUz2AIHHQ8gBFkQFnoECCMQAQ&usg=AOvVaw3er084MvIA3UYfjSs7s5yd`;
+    const url = `https://www.facebook.com/profile.php?id=61579208743498`;
 
     window.open(url, "_blank");
   };
