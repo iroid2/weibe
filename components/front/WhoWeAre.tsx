@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function WhoWeAre() {
   return (
-    <div className="p-10">
+    <div className="md:p-10">
       <section className="py-16 lg:py-24 rounded-3xl bg-[#5b5b5b17] bg-gradient-to-b from-white to-green-50 relative overflow-hidden">
         {/* Green accent at bottom */}
         <div className="absolute bottom-0 left-0 right-0 h-8 bg-green-500"></div>

@@ -37,7 +37,7 @@ export function FAQSection() {
   ];
 
   return (
-    <div className="p-10">
+    <div className="md:p-10">
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           {/* Header */}

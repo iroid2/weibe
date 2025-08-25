@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export function BlogSection() {
   return (
-    <div className="p-10">
+    <div className="md:p-10">
       <section className="py-16  px-4 bg-[#5b5b5b17] rounded-3xl">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
