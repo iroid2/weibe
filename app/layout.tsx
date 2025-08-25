@@ -4,6 +4,9 @@ import "./globals.css";
 import Navbar from "@/components/front/Navbar";
 import { WhatsAppButton } from "@/components/front/whatsapp-button";
 import { Footer } from "@/components/front/Footer";
+import { TikTokButton } from "@/components/front/tiktok-button";
+import { InstagramButton } from "@/components/front/instagram-button";
+import { FacebookButton } from "@/components/front/facebook-button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +35,9 @@ export default function RootLayout({
       >
         <Navbar />
         <WhatsAppButton />
+        <TikTokButton />
+        <InstagramButton />
+        <FacebookButton />
         {children}
         <Footer />
       </body>
